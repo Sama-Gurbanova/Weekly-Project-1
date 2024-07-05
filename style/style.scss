@@ -1,0 +1,123 @@
+*body{
+   background-color: #000;
+   background-image: url(/style/assets/icon/kulturistas-m7oWrM175eu7nJ9O\ \(1\).avif);
+   background-repeat: no-repeat;
+   background-position-x: -60px;
+   background-position-y: -30px;
+}
+
+#header{
+   .nav{
+      &__list{
+         width: 800px;
+         height: 50px;
+         display: flex;
+         justify-content: space-around;
+         list-style-type: none;
+         align-items: center;
+         margin-left: 70px;
+        
+         &-item{
+         }
+
+         &-title{
+         font-family: "Montserrat", sans-serif;
+         text-decoration: none;
+         color: #fff;    
+         }
+
+         &-link{
+            font-family: "Montserrat", sans-serif;
+            text-decoration: none;
+            color: #fff;   
+         }
+      }
+   }
+}
+
+#main{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   margin-left: 120px;
+ 
+   #section{
+      .container{   
+         width: 900px;
+         height: 400px;
+         color: #fff;
+    
+         &__text{
+            font-family: "Oswald", sans-serif;
+            font-size: 80px;
+         
+            &-subtitle{
+            width: 700px;
+            font-size: 20px;
+            font-family: "Fustat", sans-serif;
+           
+            }
+         }
+      }
+      
+      .btn{
+         &__button{
+         width: 200px;     
+         padding: 15px 30px;
+         background-color: red;
+         color: #fff;
+         border: none;
+         font-family: "Oswald", sans-serif;
+         font-weight: 600;
+         cursor: pointer;
+         }
+      }
+   }
+}
+
+
+#footer{
+   width: 900px;
+   height: 100vh;
+   
+   .main{
+      display: flex;
+      justify-content: space-between;
+      padding: 80px;
+      margin-left: 30px;
+      
+      &_content{
+         
+      }
+
+      &_text{
+         color: #fff;
+         
+         &-title{
+          font-family: "Oswald", sans-serif;
+          letter-spacing: -1px;
+         }
+
+         &-subtitle{
+           font-family: "Poppins", sans-serif;
+           line-height: 10px;
+           
+         }
+      }
+   }
+
+   .icons{
+      display: flex;
+      gap: 30px;
+      margin-top: 40px;
+      
+      &_link{
+         text-decoration: none;
+
+         &-icon{
+         
+         }
+      }
+   }
+
+}
